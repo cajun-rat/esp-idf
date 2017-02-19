@@ -43,12 +43,12 @@ enum {
     SIG_BTIF_WORK = 0xff
 };
 
-#define HCI_HOST_TASK_STACK_SIZE	1500
+#define HCI_HOST_TASK_STACK_SIZE	2500
 #define HCI_HOST_TASK_PRIO			(configMAX_PRIORITIES - 2)
 #define HCI_HOST_TASK_NAME			"hciHostT"
 #define HCI_HOST_QUEUE_NUM			40
 
-#define HCI_H4_TASK_STACK_SIZE		1500
+#define HCI_H4_TASK_STACK_SIZE		2500
 #define HCI_H4_TASK_PRIO			(configMAX_PRIORITIES - 3)
 #define HCI_H4_TASK_NAME			"hciH4T"
 #define HCI_H4_QUEUE_NUM			60
